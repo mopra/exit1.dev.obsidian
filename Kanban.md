@@ -7,6 +7,7 @@ kanban-plugin: board
 ## Todo
 
 - [ ] Item1
+- [ ] Test card
 
 
 ## In Progress

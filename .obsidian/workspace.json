@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ffd6c1bf40fbc842",
+            "id": "52503ca31f09e357",
             "type": "leaf",
             "state": {
               "type": "kanban",
@@ -100,6 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +110,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Todo"
             }
           },
           {
@@ -118,11 +119,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Todo"
             }
           },
           {
@@ -160,17 +162,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "Todo.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled Kanban"
+              "title": "Outline of Todo"
             }
           },
           {
-            "id": "098a5c10f8224907",
+            "id": "140a3c50dabca9c2",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -184,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,10 +201,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebb0f776889ea3b9",
+  "active": "52503ca31f09e357",
   "lastOpenFiles": [
+    "Todo.md",
+    "Kanban 1.md",
     "Kanban.md",
-    "Untitled Kanban.md",
-    "Todo.md"
+    "conflict-files-obsidian-git.md"
   ]
 }
