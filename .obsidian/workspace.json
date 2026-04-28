@@ -4,30 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "dbc23dad23cb187c",
+        "id": "3979546e0b079622",
         "type": "tabs",
         "children": [
           {
-            "id": "ffd6c1bf40fbc842",
+            "id": "b75cb8a3b6a3e396",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "card-board-view",
+              "state": {},
+              "icon": "card-board",
+              "title": "CardBoard"
+            }
+          },
+          {
+            "id": "ad6106775a4eab73",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
               "state": {
-                "file": "Kanban.md",
-                "kanbanViewState": {
-                  "kanban-plugin": "board",
-                  "list-collapse": [
-                    false,
-                    false,
-                    false
-                  ]
-                }
+                "file": "Tasks.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-trello",
-              "title": "Kanban"
+              "icon": "lucide-file",
+              "title": "Tasks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -100,6 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +115,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Tasks"
             }
           },
           {
@@ -118,11 +124,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tasks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Tasks"
             }
           },
           {
@@ -160,13 +167,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled Kanban.md",
+                "file": "Tasks.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Untitled Kanban"
+              "title": "Outline of Tasks"
             }
           },
           {
@@ -196,13 +203,15 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-kanban:Create new board": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "card-board:CardBoard": false
     }
   },
-  "active": "ebb0f776889ea3b9",
+  "active": "ad6106775a4eab73",
   "lastOpenFiles": [
+    "Tasks.md",
     "Kanban.md",
-    "Untitled Kanban.md",
-    "Todo.md"
+    "Todo.md",
+    "Untitled Kanban.md"
   ]
 }
