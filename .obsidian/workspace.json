@@ -150,13 +150,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "conflict-files-obsidian-git.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of conflict-files-obsidian-git"
+              "title": "Outline"
             }
           },
           {
@@ -192,8 +191,8 @@
   },
   "active": "ebb0f776889ea3b9",
   "lastOpenFiles": [
-    "Kanban.md",
     "conflict-files-obsidian-git.md",
+    "Kanban.md",
     "Tasks.md",
     "Todo.md",
     "Untitled Kanban.md"

@@ -23,7 +23,11 @@
       "Read(//Users/alexander/**)",
       "Bash(echo 'export PATH=\"$HOME/bin:$PATH\"')",
       "Bash(git rm *)",
-      "Bash(rm conflict-files-obsidian-git.md)"
+      "Bash(rm conflict-files-obsidian-git.md)",
+      "Bash(git commit --no-verify -m ' *)",
+      "Bash(rm -f conflict-files-obsidian-git.md)",
+      "Bash(git commit *)",
+      "Bash(git push *)"
     ]
   }
 }
