@@ -164,13 +164,23 @@
               "icon": "lucide-list",
               "title": "Outline of Todo"
             }
+          },
+          {
+            "id": "140a3c50dabca9c2",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,10 +191,11 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-kanban:Create new board": false
+      "obsidian-kanban:Create new board": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ffd6c1bf40fbc842",
+  "active": "ebb0f776889ea3b9",
   "lastOpenFiles": [
     "Todo.md"
   ]
