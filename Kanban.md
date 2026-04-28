@@ -6,11 +6,11 @@ kanban-plugin: board
 
 ## Todo
 
+- [ ] Item1
 
 
 ## In Progress
 
-- [ ] Item1
 
 
 ## D.O.D
