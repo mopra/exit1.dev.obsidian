@@ -8,7 +8,20 @@
       "Bash(git fetch *)",
       "Bash(git checkout *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(gh --version)",
+      "Bash(curl -sL https://api.github.com/repos/cli/cli/releases/latest)",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); [print\\(a['browser_download_url']\\) for a in data['assets'] if 'macOS_arm64.tar.gz' in a['name']]\")",
+      "Bash(python3 -c \"import sys,json; data=json.load\\(sys.stdin\\); print\\(data['tag_name']\\); [print\\(a['browser_download_url']\\) for a in data['assets']]\")",
+      "Bash(curl -L https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_macOS_universal.pkg -o /tmp/gh.pkg)",
+      "Bash(sudo installer *)",
+      "Bash(curl -L https://github.com/cli/cli/releases/download/v2.92.0/gh_2.92.0_macOS_arm64.zip -o /tmp/gh.zip)",
+      "Bash(unzip -o /tmp/gh.zip -d /tmp/gh_extracted)",
+      "Bash(mkdir -p ~/bin)",
+      "Bash(cp /tmp/gh_extracted/gh_2.92.0_macOS_arm64/bin/gh ~/bin/gh)",
+      "Bash(chmod +x ~/bin/gh)",
+      "Read(//Users/alexander/**)",
+      "Bash(echo 'export PATH=\"$HOME/bin:$PATH\"')"
     ]
   }
 }
